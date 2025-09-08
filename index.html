@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>My Life Timeline</title>
+  <meta name="description" content="A beautifully animated, accessible timeline of 15 key life events." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="theme-color" content="#0f1226" />
+  <!-- Open Graph / Twitter for clean link previews -->
+  <meta property="og:title" content="My Life Timeline" />
+  <meta property="og:description" content="15 events that shaped me — presented with immersive animations." />
+  <meta property="og:image" content="assets/img/og-image.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts (swap for performance) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="preload" href="assets/css/main.css" as="style">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/print.css" media="print">
+  <script>
+    // Prevent flash of wrong theme: read stored or system preference ASAP.
+    (function() {
+      try {
+        const stored = localStorage.getItem('theme');
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = stored || (systemDark ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.classList.remove('no-js');
+      } catch(e){}
+    })();
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#timeline">Skip to timeline</a>
+
+  <header class="site-header" role="banner" aria-label="Header">
+    <div class="brand">
+      <svg class="logo" width="36" height="36" viewBox="0 0 100 100" aria-hidden="true">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" />
+            <stop offset="1" />
+          </linearGradient>
+        </defs>
+        <circle cx="50" cy="50" r="46" fill="url(#g)" />
+        <path d="M50 20 L70 50 L50 80 L30 50 Z" fill="currentColor" />
+      </svg>
+      <span class="title">My Life Timeline</span>
+    </div>
+
+    <nav class="header-actions" aria-label="Header actions">
+      <button id="themeToggle" class="btn theme-toggle" aria-pressed="false" aria-label="Toggle dark mode">
+        <span class="icon" aria-hidden="true">🌓</span>
+        <span class="text">Theme</span>
+      </button>
+      <button id="printBtn" class="btn outline" aria-label="Print timeline">Print</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-bg" aria-hidden="true">
+      <!-- Subtle animated gradient beams -->
+      <div class="beam b1"></div>
+      <div class="beam b2"></div>
+      <div class="beam b3"></div>
+      <div class="grid"></div>
+    </div>
+
+    <div class="hero-inner">
+      <h1 id="hero-title">
+        15 Moments, One Story
+      </h1>
+      <p class="subtitle">
+        A visually rich, accessible, over-the-top timeline you can customize in minutes.
+      </p>
+      <div class="cta-row">
+        <a href="#timeline" class="btn cta">Explore Timeline</a>
+        <a href="data/events.json" class="btn ghost" target="_blank" rel="noopener">Edit the Data</a>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="mouse"><div class="wheel"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="filters" aria-labelledby="filters-title">
+    <h2 id="filters-title" class="visually-hidden">Timeline Filters</h2>
+    <div class="filters-row">
+      <div class="search">
+        <label for="searchInput" class="visually-hidden">Search events</label>
+        <input id="searchInput" type="search" placeholder="Search by title, year, tag, or location…" autocomplete="off">
+        <span class="kbd" aria-hidden="true">/</span>
+      </div>
+
+      <div class="chips" id="tagChips" role="list" aria-label="Filter by tag">
+        <!-- Filled dynamically from your data's tags -->
+      </div>
+
+      <div class="sort">
+        <label for="sortSelect" class="visually-hidden">Sort order</label>
+        <select id="sortSelect" aria-label="Sort events">
+          <option value="desc">Newest first</option>
+          <option value="asc">Oldest first</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <main id="timeline" class="timeline" role="main" aria-label="Timeline of life events">
+    <ol id="timelineList" class="timeline-list" tabindex="0" aria-live="polite">
+      <!-- Populated by JS -->
+      <noscript>
+        <li class="timeline-item">
+          <article class="card">
+            <h3>Enable JavaScript to see the animated timeline.</h3>
+            <p>You can still open <a href="data/events.json">events.json</a> to view the raw data.</p>
+          </article>
+        </li>
+      </noscript>
+    </ol>
+    <div class="timeline-axis" aria-hidden="true">
+      <div class="axis-fill"></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <p>Built with ♥ for a school project. Design & code template by <span class="sig">you + GPT</span>.</p>
+  </footer>
+
+  <template id="eventTemplate">
+    <li class="timeline-item">
+      <article class="card" role="article">
+        <div class="card-media"></div>
+        <div class="card-body">
+          <header class="card-header">
+            <time class="card-date"></time>
+            <h3 class="card-title"></h3>
+            <p class="card-subtitle"></p>
+          </header>
+          <p class="card-desc"></p>
+          <ul class="tag-list"></ul>
+          <div class="card-meta"></div>
+        </div>
+      </article>
+    </li>
+  </template>
+
+  <script defer src="assets/js/main.js"></script>
+</body>
+</html>
