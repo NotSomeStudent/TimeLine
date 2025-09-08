@@ -1,1 +1,14 @@
-
+/* Clean, ink-friendly print layout */
+@page { margin: 16mm }
+* { box-shadow:none !important; text-shadow:none !important }
+body { background:#fff; color:#111; font: 12pt/1.4 Georgia, "Times New Roman", serif }
+.site-header, .hero, .filters, .timeline-axis, .btn, .scroll-cue { display:none !important }
+.timeline { padding:0 }
+.timeline-list { gap: 8mm }
+.card { border:1pt solid #000; background:#fff; transform:none !important; opacity:1 !important }
+.card-media { min-height:auto; background:#eee }
+.card-body { padding:6mm }
+.card-title { font-size: 16pt }
+.card-date { color:#000; font-weight:bold }
+.tag { border:1pt solid #000; color:#000 }
+.site-footer { margin-top: 12mm; color:#000 }
