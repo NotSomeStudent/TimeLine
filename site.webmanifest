@@ -1,1 +1,11 @@
-
+{
+  "name": "My Life Timeline",
+  "short_name": "Timeline",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1226",
+  "theme_color": "#0f1226",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
