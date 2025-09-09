@@ -1,1 +1,184 @@
-
+{
+  "events": [
+    {
+      "id": "born",
+      "title": "The Day I Arrived",
+      "subtitle": "A brand-new adventure begins",
+      "date": "2008-04-12",
+      "location": "Hometown, Country",
+      "description": "I was born! My family says I was surprisingly calm and sleepy.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["family", "milestone"],
+      "link": ""
+    },
+    {
+      "id": "first-day-school",
+      "title": "First Day of School",
+      "subtitle": "New backpack, big smiles",
+      "date": "2013-09-03",
+      "location": "Elementary School",
+      "description": "I remember the smell of new pencils and meeting my first teacher.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["school", "firsts"],
+      "link": ""
+    },
+    {
+      "id": "learned-bike",
+      "title": "Riding a Bike Solo",
+      "subtitle": "No training wheels!",
+      "date": "2014-06-18",
+      "location": "Neighborhood",
+      "description": "After a few falls, I finally got the hang of it. Freedom!",
+      "image": "",
+      "image_alt": "",
+      "tags": ["sports", "firsts"],
+      "link": ""
+    },
+    {
+      "id": "science-fair",
+      "title": "First Science Fair",
+      "subtitle": "Volcano project champion",
+      "date": "2016-02-10",
+      "location": "School Gym",
+      "description": "I built a baking-soda volcano and learned the basics of experimentation.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["school", "science"],
+      "link": ""
+    },
+    {
+      "id": "pet",
+      "title": "We Adopted a Pet",
+      "subtitle": "A fluffy best friend",
+      "date": "2016-08-21",
+      "location": "Local Shelter",
+      "description": "We brought home a rescue cat who now runs the house.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["family", "pets"],
+      "link": ""
+    },
+    {
+      "id": "moving",
+      "title": "We Moved Homes",
+      "subtitle": "New room, new routine",
+      "date": "2017-07-01",
+      "location": "New City",
+      "description": "Packing boxes taught me the art of letting go (and labeling!).",
+      "image": "",
+      "image_alt": "",
+      "tags": ["family", "change"],
+      "link": ""
+    },
+    {
+      "id": "music",
+      "title": "Started Playing an Instrument",
+      "subtitle": "Practice makes progress",
+      "date": "2018-10-12",
+      "location": "Music Class",
+      "description": "I fell in love with rhythm and learned discipline through practice.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["music", "hobby"],
+      "link": ""
+    },
+    {
+      "id": "coding",
+      "title": "First Lines of Code",
+      "subtitle": "Hello, world!",
+      "date": "2019-05-04",
+      "location": "Home",
+      "description": "I built a mini game. It was buggy, but mine.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["tech", "firsts"],
+      "link": ""
+    },
+    {
+      "id": "team-sport",
+      "title": "Joined a Team Sport",
+      "subtitle": "Learning teamwork",
+      "date": "2019-09-09",
+      "location": "Community Center",
+      "description": "Wins are fun, but learning to support each other was the real prize.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["sports", "teamwork"],
+      "link": ""
+    },
+    {
+      "id": "volunteer",
+      "title": "First Volunteering",
+      "subtitle": "Giving back",
+      "date": "2020-02-15",
+      "location": "Local Charity",
+      "description": "I learned how small actions can have a real impact.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["community", "service"],
+      "link": ""
+    },
+    {
+      "id": "remote-school",
+      "title": "Remote School Experience",
+      "subtitle": "Adapting during tough times",
+      "date": "2020-09-10",
+      "location": "Home",
+      "description": "I discovered self-motivation and time management.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["school", "resilience"],
+      "link": ""
+    },
+    {
+      "id": "award",
+      "title": "Academic Award",
+      "subtitle": "Effort recognized",
+      "date": "2021-06-25",
+      "location": "School Auditorium",
+      "description": "A proud moment for me and my family.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["school", "achievement"],
+      "link": ""
+    },
+    {
+      "id": "trip",
+      "title": "First Big Trip",
+      "subtitle": "Seeing the world",
+      "date": "2022-08-03",
+      "location": "Travel Destination",
+      "description": "I tried new foods and learned a few phrases in another language.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["travel", "culture"],
+      "link": ""
+    },
+    {
+      "id": "project",
+      "title": "Passion Project",
+      "subtitle": "From idea to reality",
+      "date": "2023-04-30",
+      "location": "Home / School",
+      "description": "I built something I’m proud of and shared it with friends.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["tech", "creativity"],
+      "link": ""
+    },
+    {
+      "id": "today",
+      "title": "Where I Am Today",
+      "subtitle": "Always learning",
+      "date": "2025-01-01",
+      "location": "Here & Now",
+      "description": "This timeline is part of my journey to communicate better.",
+      "image": "",
+      "image_alt": "",
+      "tags": ["milestone", "reflection"],
+      "link": ""
+    }
+  ]
+}
