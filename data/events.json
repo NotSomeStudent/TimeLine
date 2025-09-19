@@ -1,19 +1,19 @@
 {
   "events": [
-    { "id": "e2009", "title": "2009 — A New Chapter", "subtitle": "Early spark", "date": "2009-04-10", "location": "Hometown", "description": "The first milestone in my journey.", "image": "", "image_alt": "", "tags": ["origin","family"], "link": "" },
-    { "id": "e2010", "title": "2010 — First Big Curiosity", "subtitle": "Exploring the unknown", "date": "2010-06-05", "location": "Library", "description": "I fell in love with learning and tinkering.", "image": "", "image_alt": "", "tags": ["school","curiosity"], "link": "" },
-    { "id": "e2011", "title": "2011 — New Friendships", "subtitle": "Finding my crew", "date": "2011-09-03", "location": "School", "description": "Built bonds that shaped my year.", "image": "", "image_alt": "", "tags": ["friends"], "link": "" },
-    { "id": "e2012", "title": "2012 — First Presentation", "subtitle": "On stage", "date": "2012-03-22", "location": "Auditorium", "description": "Nervous, but I learned to speak up.", "image": "", "image_alt": "", "tags": ["confidence","school"], "link": "" },
-    { "id": "e2013", "title": "2013 — Sports & Teamwork", "subtitle": "Working as one", "date": "2013-10-12", "location": "Field", "description": "Discovered discipline and collaboration.", "image": "", "image_alt": "", "tags": ["sports","teamwork"], "link": "" },
-    { "id": "e2014", "title": "2014 — Creative Project", "subtitle": "Making something new", "date": "2014-05-14", "location": "Home", "description": "I completed a project I truly loved.", "image": "", "image_alt": "", "tags": ["creativity"], "link": "" },
-    { "id": "e2015", "title": "2015 — First Trip Away", "subtitle": "Seeing more of the world", "date": "2015-08-21", "location": "New City", "description": "Travel broadened my perspective.", "image": "", "image_alt": "", "tags": ["travel","culture"], "link": "" },
-    { "id": "e2016", "title": "2016 — Giving Back", "subtitle": "Volunteering", "date": "2016-11-02", "location": "Local Charity", "description": "I learned the impact of small actions.", "image": "", "image_alt": "", "tags": ["community","service"], "link": "" },
-    { "id": "e2017", "title": "2017 — A Move", "subtitle": "New routines", "date": "2017-07-01", "location": "Another City", "description": "Change challenged and grew me.", "image": "", "image_alt": "", "tags": ["change","family"], "link": "" },
-    { "id": "e2018", "title": "2018 — Music & Rhythm", "subtitle": "Practice & flow", "date": "2018-10-12", "location": "Music Room", "description": "Discipline through sound and timing.", "image": "", "image_alt": "", "tags": ["music","hobby"], "link": "" },
-    { "id": "e2019", "title": "2019 — First Code", "subtitle": "Hello, world!", "date": "2019-05-04", "location": "Home", "description": "Built a tiny app and got hooked.", "image": "", "image_alt": "", "tags": ["tech","firsts"], "link": "" },
-    { "id": "e2020", "title": "2020 — Remote Shift", "subtitle": "Adapting fast", "date": "2020-09-10", "location": "Home", "description": "Resilience and self-motivation.", "image": "", "image_alt": "", "tags": ["school","resilience"], "link": "" },
-    { "id": "e2021", "title": "2021 — Recognition", "subtitle": "Award earned", "date": "2021-06-25", "location": "School", "description": "A proud moment for effort.", "image": "", "image_alt": "", "tags": ["achievement"], "link": "" },
-    { "id": "e2023", "title": "2023 — Passion Project 2.0", "subtitle": "From idea to impact", "date": "2023-04-30", "location": "Home / School", "description": "I built and shared something meaningful.", "image": "", "image_alt": "", "tags": ["tech","creative"], "link": "" },
-    { "id": "e2025", "title": "2025 — Here & Now", "subtitle": "Always learning", "date": "2025-01-01", "location": "Today", "description": "This rigorous timeline is part of my growth.", "image": "", "image_alt": "", "tags": ["reflection","milestone"], "link": "" }
+    { "id": "y2009", "title": "2009 — New Beginnings", "subtitle": "Spark", "date": "2009-05-01", "location": "Hometown", "description": "The earliest milestone that sets the arc.", "image": "", "image_alt": "" },
+    { "id": "y2010", "title": "2010 — First Challenge", "subtitle": "Learning curve", "date": "2010-03-12", "location": "School", "description": "Finding rhythm and routine.", "image": "", "image_alt": "" },
+    { "id": "y2011", "title": "2011 — Team & Friends", "subtitle": "Community", "date": "2011-09-03", "location": "Field", "description": "Bonds that mattered.", "image": "", "image_alt": "" },
+    { "id": "y2012", "title": "2012 — On Stage", "subtitle": "Presentation", "date": "2012-04-18", "location": "Auditorium", "description": "Confidence unlocked.", "image": "", "image_alt": "" },
+    { "id": "y2013", "title": "2013 — Project 1", "subtitle": "Create & ship", "date": "2013-10-12", "location": "Home", "description": "First thing I made end-to-end.", "image": "", "image_alt": "" },
+    { "id": "y2014", "title": "2014 — Travel Shift", "subtitle": "Perspective", "date": "2014-08-21", "location": "New City", "description": "Broadened horizons.", "image": "", "image_alt": "" },
+    { "id": "y2015", "title": "2015 — New Home", "subtitle": "Change", "date": "2015-07-01", "location": "Another City", "description": "Adapting to move.", "image": "", "image_alt": "" },
+    { "id": "y2016", "title": "2016 — Give Back", "subtitle": "Service", "date": "2016-11-02", "location": "Community", "description": "Small actions, real impact.", "image": "", "image_alt": "" },
+    { "id": "y2017", "title": "2017 — Rhythm", "subtitle": "Music & practice", "date": "2017-10-12", "location": "Music Room", "description": "Discipline through sound.", "image": "", "image_alt": "" },
+    { "id": "y2018", "title": "2018 — Code 1", "subtitle": "Hello, world!", "date": "2018-05-04", "location": "Home", "description": "Caught the bug.", "image": "", "image_alt": "" },
+    { "id": "y2019", "title": "2019 — Team Sport", "subtitle": "Support & grit", "date": "2019-09-09", "location": "Center", "description": "Learning to play as one.", "image": "", "image_alt": "" },
+    { "id": "y2020", "title": "2020 — Remote Pivot", "subtitle": "Resilience", "date": "2020-09-10", "location": "Home", "description": "Self-motivation leveled up.", "image": "", "image_alt": "" },
+    { "id": "y2021", "title": "2021 — Recognition", "subtitle": "Award", "date": "2021-06-25", "location": "School", "description": "Effort acknowledged.", "image": "", "image_alt": "" },
+    { "id": "y2023", "title": "2023 — Passion 2.0", "subtitle": "Impact", "date": "2023-04-30", "location": "Home/School", "description": "Built & shared something meaningful.", "image": "", "image_alt": "" },
+    { "id": "y2025", "title": "2025 — Here & Now", "subtitle": "Trajectory", "date": "2025-01-01", "location": "Today", "description": "This horizontal ultra timeline.", "image": "", "image_alt": "" }
   ]
 }
